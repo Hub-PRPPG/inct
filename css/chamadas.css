@@ -1,0 +1,13 @@
+#main-coordenacao{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.chamadas{
+    font-size: 48px;
+    font-family: 'Inter', sans-serif;
+    color: #1E2022;
+    font-weight: 700;
+}

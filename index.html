@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer="defer" src="//barra.brasil.gov.br/barra_2.0.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/chamadas.css">
+    <link rel="stylesheet" href="css/pesquisadores.css">
+    <link rel="stylesheet" href="css/apoio.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>INCT - Geofísica do Petróleo</title>
+</head>
+
+<body>
+    <!--Barra de Governo-->
+    <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;">
+        <ul id="menu-barra-temp" style="list-style:none;">
+            <li
+                style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED">
+                <a href="http://brasil.gov.br"
+                    style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo
+                    Brasileiro</a>
+            </li>
+        </ul>
+    </div>
+
+    <!--Header-->
+    <header>
+        <div class="container" id="topo">
+            <img src="img/Logo-IG.png" id="logomarca" alt="">
+
+            <nav>
+                <ul class="nav justify-content-end">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Sobre o INCT-GP</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Quem Somos</a></li>
+                            <li><a class="dropdown-item" href="#">Objetivos</a></li>
+                            <li><a class="dropdown-item" href="#">Equipe</a></li>
+                        </ul>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                            aria-expanded="false">Atuação</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Pesquisa</a></li>
+                            <li><a class="dropdown-item" href="#">Formação</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Linha de Pesquisa</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Produção Científica</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Documentos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" id="btn-contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--Banner-->
+    <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+
+
+        <div class="carousel-inner" id="banner-top">
+            <div class="carousel-item active">
+                <div class="container">
+                    <div id="banner-texto" class="row  d-flex  justify-center">
+                        <div class="col-lg-6 col-sm-12">
+                            <p class="texto-princpal display-4">UFBA inaugura Laboratório de Estudos do Petróleo</p>
+
+                            <p class="texto-secundario">A Universidade Federal da Bahia (UFBA) inaugura nesta
+                                sexta-feira (16 de dezembro) o Laboratório de Estudos do Petróleo (Lepetro). O Lepetro,
+                                coordenado pelo Prof. Antônio Fernando de Souza Queiroz, se constitui no primeiro
+                                laboratório na Região Nordeste.</p>
+
+
+                            <a id="btn-banner" class="btn btn-primary"
+                                href="https://www.ufba.br/ufba_em_pauta/ufba-inaugura-laborat%C3%B3rio-de-estudos-do-petr%C3%B3leo-com-financiamento-da-petrobras"
+                                target="_blank">Veja Mais</a>
+                        </div>
+
+                        <div id="banner-slider1" class="col-lg-6 col-sm-12">
+                            <img src="img/Petroleo.png" class="m-0 p-0" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="carousel-item">
+                <div class="container">
+                    <div id="banner-texto" class="row d-flex justify-center">
+                        <div id="banner-texto" class="row  d-flex  justify-center">
+                            <div class="col-lg-6 col-sm-12">
+                                <p class="texto-princpal display-4">Análises do Lepetro/Igeo</p>
+
+                                <p class="texto-secundario">Pesquisadores do Lepetro (Centro de Excelência em Geoquímica
+                                    do Petróleo, Energia e Meio ambiente do Instituto de Geociências da UFBA)
+                                    realizaram, por iniciativa própria, análises de amostras do petróleo encontrado nas
+                                    praias da Bahia e de Sergipe.</p>
+
+
+                                <a id="btn-banner" class="btn btn-primary"
+                                    href="https://www.ufba.br/ufba_em_pauta/analises-do-lepetroigeo-indicam-correlacao-entre-oleo-encontrado-nas-praias-do"
+                                    target="_blank">Veja Mais</a>
+                            </div>
+
+                            <div id="banner-slider1" class=" col-lg-6 col-sm-12">
+                                <img src="img/Lepetro.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
+    </div>
+
+    <!--Chamada Notícias-->
+    <div class="container">
+        <div class="row">
+            <div id="main-coordenacao" class="col-12 mt-4 mb-0">
+                <p class="chamadas">Pesquisadores</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Pesquisadores-->
+    <div class="container">
+        <div class="row">
+            <div class="glider">
+
+                <button aria-label="Previous" class="glider-prev">«</button>
+                <button aria-label="Next" class="glider-next">»</button>
+
+                <div id="card-pesquisador" class="col-lg-2 d-flex p-3">
+                    <img src="img/Amin Bassrei.png" alt="" class="img-pesquisador p-2">
+
+                    <div class="container-texto">
+                        <p class="title-pesquisador">Amin Bassrei</p>
+                        <p class="email-pesquisador">Email: bassrei@ufba.br</p>
+                        <a class="lattes-pesquisador" href=" http://lattes.cnpq.br/0254085595142341"
+                            target="_blank">Currículo Lattes</a>
+                    </div>
+                </div>
+
+
+                <div id="card-pesquisador" class="col-lg-2 d-flex p-3">
+                    <img src="img/Milton José Porsani.png" alt="" class="img-pesquisador p-2">
+
+                    <div class="container-texto">
+                        <p class="title-pesquisador">Milton José Porsani</p>
+                        <p class="email-pesquisador">Email: porsani@ufba.br</p>
+                        <a class="lattes-pesquisador" href="http://lattes.cnpq.br/1428637808064409"
+                            target="_blank">Currículo Lattes</a>
+                    </div>
+                </div>
+
+
+                <div id="card-pesquisador" class="col-lg-2 d-flex p-3">
+                    <img src="img/Hedison Kiuity Sato.png" alt="" class="img-pesquisador p-2">
+
+                    <div class="container-texto">
+                        <p class="title-pesquisador">Hédison Kiuity Sato</p>
+                        <p class="email-pesquisador">Email: sato@ufba.br</p>
+                        <a class="lattes-pesquisador" href="http://lattes.cnpq.br/5073614861573842"
+                            target="_blank">Currículo Lattes</a>
+                    </div>
+                </div>
+
+
+                <div id="card-pesquisador" class="col-lg-2 d-flex p-3">
+                    <img src="img/Herman Augusto Lepikson.jpg.png" alt="" class="img-pesquisador p-2">
+
+                    <div class="container-texto">
+                        <p class="title-pesquisador">Herman Augusto Lepikson</p>
+                        <p class="email-pesquisador">Email: herman@ufba.br</p>
+                        <a class="lattes-pesquisador" href=" http://lattes.cnpq.br/1115148358376830"
+                            target="_blank">Currículo Lattes</a>
+                    </div>
+                </div>
+
+
+
+                <div id="card-pesquisador" class="col-lg-2 d-flex p-3">
+                    <img src="img/Reynam.jpg" alt="" class="img-pesquisador p-2">
+
+                    <div class="container-texto">
+                        <p class="title-pesquisador">Reynam da Cruz Pestana</p>
+                        <p class="email-pesquisador">Email: reynam@ufba.br</p>
+                        <a class="lattes-pesquisador" href="http://lattes.cnpq.br/7927685281122435"
+                            target="_blank">Currículo Lattes</a>
+                    </div>
+                </div>
+
+
+
+                <div id="card-pesquisador" class="col-lg-2 d-flex p-3">
+                    <img src="img/Olivar.png" alt="" class="img-pesquisador p-2">
+
+                    <div class="container-texto">
+                        <p class="title-pesquisador">Olivar Antônio Lima de Lima</p>
+                        <p class="email-pesquisador">Email: olivar@ufba.br</p>
+                        <a class="lattes-pesquisador" href="http://lattes.cnpq.br/0793325217875702"
+                            target="_blank">Currículo Lattes</a>
+                    </div>
+                </div>
+
+
+                <div role="tablist" class="dots"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--Botão Pesquisadores-->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 container-bottom mt-5">
+                <button>Todos os Pesquisadores</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Chamada Produção Científica-->
+    <div class="container">
+        <div class="row">
+            <div id="main-coordenacao" class="col-12 mt-4 mb-0">
+                <p class="chamadas">Produção Científica</p>
+            </div>
+        </div>
+    </div>
+
+   <div class="container">
+      <div class="row">
+         <div class="col-lg-12" id="card-producao">
+
+            <div class="col-lg-6 p-5" id="card-texto">
+                <h1>Conheça a importância da pesquisa científica para a sociedade</h1>
+                <p> Artigos em revistas científicas; apresentações em eventos científicos; edição de livros e capítulos de livros e, ainda, outros tipos de publicações.</p>
+                <a class="btn btn-primary" href="https://repositorio.ufba.br/" target="_blank" >Veja Mais</a>
+            </div>
+
+
+            <div class="col-lg-6 ">
+                <img src="img/Pesquisadora.png" alt="">
+            </div>
+         </div>
+
+      </div>
+
+   </div>
+
+    <!--Parceiros
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12" id="apoio">
+                    <div class="col-lg-2">
+                        <a href="https://www.ufba.br/" target="_blank"><img src="img/ufba.png" class="img-parceiro" alt=""></a>   
+                     </div>
+ 
+                    <div class="col-lg-2">
+                       <a href="https://www.fapesb.ba.gov.br/" target="_blank"><img src="img/Fapesb.png" class="img-parceiro" alt=""></a>   
+                    </div>
+
+                    <div class="col-lg-2">
+                        <a href="https://www.gov.br/capes/pt-br" target="_blank"><img src="img/Capes.png" class="img-parceiro" alt=""></a>  
+                    </div>
+
+                    <div class="col-lg-2">
+                        <a href="https://www.gov.br/cnpq/pt-br" target="_blank"><img src="img/Cnpq.png" class="img-parceiro" alt=""></a>  
+                    </div>
+                    
+                    <div class="col-lg-2">
+                        <a href="https://petrobras.com.br/pt/" target="_blank"><img src="img/Petrobrás.png" class="img-parceiro" alt=""></a>  
+                    </div>
+
+                    <div class="col-lg-2">
+                        <a href="http://www.finep.gov.br/" target="_blank"><img src="img/Finep.png" class="img-parceiro" alt=""></a>  
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>-->
+
+    <!--Footer-->
+    <footer class="footer pt-5 pb-4 pb-lg-5 mt-5">
+            <div class="container text-center pt-lg-3">
+                <div class="navbar-brand justify-content-center text-dark  mb-lg-4">
+                    <img src="img/Hub Branca.png" class="me-2" width="80" alt="Silicon">
+                </div>
+
+                <p class="nav d-block fs-sm text-center  mt-lg-4 mb-0">
+                    <span class="opacity-80">© Todos direitos reservados: </span>
+                    <a id="link-prppg" class="nav-link d-inline-block p-0" href="https://www.prppg.ufba.br/"
+                        target="_blank" rel="noopener">Pró-Reitoria de Pesquisa e Pós-Graduação</a>
+                </p>
+
+
+                <div class="d-flex justify-content-center pt-1 mt-lg-3">
+                    <a href="https://www.instagram.com/ufba.prppg/" target="_blank">
+                        <i class="icones bi bi-instagram p-2" width="80"></i>
+                    </a>
+                    <a href="https://www.youtube.com/@ufbaprppg" target="_blank">
+                        <i class="icones bi bi-youtube p-2"></i>
+                    </a>
+                </div>
+            </div>
+    </footer>
+
+    <script  type="text/javascript" src="js/inct.js"></script>
+
+
+
+</body>
+
+</html>

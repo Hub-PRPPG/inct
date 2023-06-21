@@ -1,0 +1,36 @@
+#card-pesquisador{
+  border: solid 1px silver;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.img-pesquisador{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+}
+
+.container-texto{
+    padding-top: 10px;
+    margin-left: 30px;
+}
+
+
+.title-pesquisador{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.15em;
+  letter-spacing: -0.5px;
+  padding: 0;
+}  
+
+.email-pesquisador{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    line-height: 1.15em;
+    letter-spacing: -0.5px;
+    padding: 0;
+  }  
+
+  

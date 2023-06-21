@@ -1,0 +1,27 @@
+#banner-top{
+    margin-top: 0;
+    background-image: url("../img/Background3.png");
+    background-size: cover;
+    height: 500px;    
+    display: flex;
+    align-items: center;
+}
+
+#banner-slider1 img{
+    border-radius: 15px;
+    width:600px;
+}
+
+.texto-princpal{
+    line-height: 67.2px;
+    font-size: 56px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 700;
+}
+
+.texto-secundario{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}

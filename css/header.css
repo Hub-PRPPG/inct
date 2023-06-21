@@ -1,0 +1,47 @@
+#logomarca{
+    padding: 15px;
+    height: 120px;
+}
+
+#topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color:#7f7b88;
+    padding: 5px;
+    
+}
+
+
+#btn-contato{
+    width: 100px;
+    border-radius: 0.3125rem;
+    background-color:#21325B; 
+    color: #ffffff;
+    text-align: center;
+}
+
+
+#btn-contato:hover {
+    background-color:#377dff; 
+    color: #ffffff;
+}
+
+.nav-link {
+  color:#21325B; 
+  font-weight: 600;
+}   
+
+.btn-primary {
+    background-color:#21325B; 
+    border-color: #21325B;
+    color: #ffffff;
+    
+  }   
+  
