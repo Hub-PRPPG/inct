@@ -1,0 +1,38 @@
+#card-producao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 420px;
+    color: #fafafa;
+    background-color: #e93aba;
+    border-radius: 10px;
+    background-image: url(https://global-uploads.webflow.com/6092ed7…/64410f3…_quadrados-banner.png),linear-gradient(135deg,#15163a,#15163a 75%);
+    background-position: 0 0,0 0;
+    background-repeat: no-repeat,repeat;
+    background-size: cover,auto;
+    align-items: center;
+    text-decoration: none;
+    transition: box-shadow .2s;
+    display: flex;
+    position: relative;
+    overflow: visible;
+}
+
+#card-texto h1{
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 700;
+
+}
+
+#card-texto p{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+
+#card-texto a{
+    width: 120px;
+    height: 40px;
+}

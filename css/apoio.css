@@ -1,8 +1,8 @@
 #apoio{
     display: flex;
     flex-direction:row;
-    justify-content:space-around;
     align-items: center;
+    justify-content: space-around;
 }
 
 .img-apoio{
@@ -10,56 +10,22 @@
     width: 180px;
 }
 
+.img-parceiro{
+   height: 150px;
+   width: 320px;
+   border-radius: 10px
+}
+
 .container-bottom{
     display: flex;
     justify-content:center;
 }
 
-.container-bottom button{
-    border: none;
-    width: 300px;
-    height: 60px;
-    background-color: #001740;
-    color: #ffffff;
-    font-family: 'Inter', sans-serif;
-}
-
-#card-producao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 420px;
-    color: #fafafa;
-    background-color: #e93aba;
+.card-parceiro{
     border-radius: 10px;
-    background-image: url(https://global-uploads.webflow.com/6092ed7…/64410f3…_quadrados-banner.png),linear-gradient(135deg,#15163a,#15163a 75%);
-    background-position: 0 0,0 0;
-    background-repeat: no-repeat,repeat;
-    background-size: cover,auto;
-    align-items: center;
-    text-decoration: none;
-    transition: box-shadow .2s;
-    display: flex;
-    position: relative;
-    overflow: visible;
+    box-shadow: 0 0.125rem 0.3rem -0.0625rem rgba(0,0,0,.03), 0 0.275rem 0.75rem -0.0625rem rgba(0,0,0,.06);
 }
 
-#card-texto h1{
-    font-size: 40px;
-    font-family: 'Inter', sans-serif;
-    color: white;
-    font-weight: 700;
-
+body{
+    background-color:#f8f8f8;
 }
-
-#card-texto p{
-    font-size: 16px;
-    font-family: 'Inter', sans-serif;
-    color: white;
-}
-
-#card-texto a{
-    width: 120px;
-    height: 40px;
-}
-

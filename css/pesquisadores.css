@@ -33,4 +33,14 @@
     padding: 0;
   }  
 
+.container-bottom button{
+    border: none;
+    width: 300px;
+    height: 60px;
+    background-color: #001740;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+
   
