@@ -29,3 +29,8 @@
 body{
     background-color:#f8f8f8;
 }
+
+.swiper {
+    width: 600px;
+    height: 300px;
+  }
