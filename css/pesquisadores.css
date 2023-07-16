@@ -2,6 +2,7 @@
   border: solid 1px silver;
   margin-right: 10px;
   border-radius: 5px;
+  width: 350px;
 }
 
 .img-pesquisador{
@@ -40,6 +41,10 @@
     background-color: #001740;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
+}
+
+.swiper{
+  display: flex;
 }
 
 

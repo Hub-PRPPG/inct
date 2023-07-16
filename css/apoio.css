@@ -22,15 +22,16 @@
 }
 
 .card-parceiro{
-    border-radius: 10px;
-    box-shadow: 0 0.125rem 0.3rem -0.0625rem rgba(0,0,0,.03), 0 0.275rem 0.75rem -0.0625rem rgba(0,0,0,.06);
+    border-radius: 20px;
+    background-color:#EDF1F5;
+    margin: 5px;
+    width:196px;
 }
 
 body{
     background-color:#f8f8f8;
 }
 
-.swiper {
-    width: 600px;
-    height: 300px;
-  }
+
+
+
