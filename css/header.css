@@ -22,7 +22,7 @@ nav ul li {
 #btn-contato{
     width: 100px;
     border-radius: 0.3125rem;
-    background-color:#21325B; 
+    background-color:#662b2c; 
     color: #ffffff;
     text-align: center;
 }
@@ -34,13 +34,13 @@ nav ul li {
 }
 
 .nav-link {
-  color:#21325B; 
+  color:#920609; 
   font-weight: 600;
 }   
 
 .btn-primary {
-    background-color:#21325B; 
-    border-color: #21325B;
+    background-color:#662b2c; 
+    border-color: #662b2c;
     color: #ffffff;
     
   }   
